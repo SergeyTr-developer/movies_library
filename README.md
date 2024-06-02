@@ -7,7 +7,7 @@
 
 ## Получение API ключа The Movie Database
 
-1. Перейдите на сайт [`The Movie Database`] (https://www.themoviedb.org/)
+1. Перейдите на сайт [`The Movie Database`](https://www.themoviedb.org/)
 2. Зарегистрируйтесь и войдите в свой аккаунт.
 3. Перейдите в раздел "Settings" вашего аккаунта.
 4. Нажмите на "API" в боковом меню.
