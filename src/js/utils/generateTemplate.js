@@ -80,7 +80,6 @@ const handleCardClickAndGetData = async (event) => {
 
   const data = await getData(`${contentType}/${id} `)
 
-  console.log('Полученные детали по фильму/сериалу:', data)
 
   modalDetailsRender(data, contentType)
 }
