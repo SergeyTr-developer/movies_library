@@ -80,7 +80,6 @@ const handleCardClickAndGetData = async (event) => {
 
   const data = await getData(`${contentType}/${id} `)
 
-
   modalDetailsRender(data, contentType)
 }
 
@@ -91,7 +90,7 @@ const modalDetailsRender = (content, contentType) => {
   list.innerHTML = `  
     <div  data-id=${content.id}>
       <div class = 'modal-flex-container' >
-      <div><img src="https://www.themoviedb.org/t/p/w300${
+      <div><img class = 'image-br-4' src="https://www.themoviedb.org/t/p/w300${
         content.poster_path
       }" alt="${content.title}" /></div>
       <div class = 'modalText-flex-container' >
